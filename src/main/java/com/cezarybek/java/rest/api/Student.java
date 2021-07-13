@@ -9,8 +9,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-import lombok.Data;
-
 @Document
 @JsonInclude
 public class Student {
@@ -51,11 +49,20 @@ public class Student {
 	}
 
 	public Student() {
-		
 	}
-	
-	
-	
-	
-
 }
+
+
+//{
+//"firstName":"Cesare",
+//"lastName":"Bek",
+//"email":"cesarebek1@gmail.com",
+//"gender":"FEMALE",
+//"address":{
+//    "country":"ITA",
+//    "city":"Udine",
+//    "postCode":"33100"
+//},
+//"favoriteSubjects":["Computer Science", "Math"],
+//"BigtotalSpentInBooks": 64
+//}

@@ -1,10 +1,5 @@
 package com.cezarybek.java.rest.api;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@Data
-@AllArgsConstructor
 public class Address {
 	
 	private String country;
@@ -15,6 +10,9 @@ public class Address {
 		this.country = country;
 		this.city = city;
 		this.postCode = postCode;
+	}
+
+	public Address() {
 	}
 	
 	
